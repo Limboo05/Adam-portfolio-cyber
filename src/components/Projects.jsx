@@ -4,7 +4,7 @@ import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 
 const Projects = () => {
   const projects = [
-    const projects = [
+    
   {
     title: "Web Application Threat Detector",
     description: "A web app that analyses HTTP requests and detects potential web vulnerabilities such as SQL injection, XSS, and CSRF attacks",
