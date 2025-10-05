@@ -10,7 +10,7 @@ const About = () => {
         <div className="flex flex-col md:flex-row items-center gap-8">
           <motion.img
             src="./Adam.JPG"
-            alt="Atharva Aher"
+            alt="Adam Sadiq "
             className="w-32 h-32 md:w-48 md:h-48 rounded-full border-4 border-green-500 flex-shrink-0 object-cover"
             whileHover={{ scale: 1.1 }}
           />
