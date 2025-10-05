@@ -1,0 +1,35 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* Add this near the top of the file, after the imports */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom Scrollbar Styling */
+::-webkit-scrollbar {
+  width: 10px;
+  background: #111827; /* dark gray to match bg-gray-900 */
+}
+
+::-webkit-scrollbar-track {
+  background: #1F2937; /* slightly lighter gray to match bg-gray-800 */
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #22C55E; /* green-500 to match the theme */
+  border-radius: 5px;
+  border: 2px solid #1F2937; /* border to create spacing effect */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #16A34A; /* green-600 for hover state */
+}
+
+/* Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #22C55E #1F2937;
+}
