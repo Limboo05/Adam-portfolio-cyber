@@ -4,22 +4,25 @@ import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 
 const Projects = () => {
   const projects = [
-    
-  {
-    title: "Web Application Threat Detector",
-    description: "A web app that analyses HTTP requests and detects potential web vulnerabilities such as SQL injection, XSS, and CSRF attacks",
-    technologies: ["Python", "Flask", "OWASP ZAP", "JavaScript", "HTML", "CSS", "Git"],
-    github: "https://github.com/Limboo05/web-app-threat-detector",
-    website: ""
-  },
-  {
-    title: "Network Intrusion Monitoring Dashboard",
-    description: "Dashboard for monitoring network traffic and flagging suspicious activity using packet capture and anomaly detection",
-    technologies: ["Python", "Scapy", "Pandas", "Flask", "HTML", "CSS", "Git"],
-    github: "https://github.com/Limboo05/network-intrusion-dashboard",
-    website: ""
-  }
-];
+    {
+      title: "Web Application Threat Detector",
+      description:
+        "A web app that analyses HTTP requests and detects potential web vulnerabilities such as SQL injection, XSS, and CSRF attacks",
+      technologies: ["Python", "Flask", "OWASP ZAP", "JavaScript", "HTML", "CSS", "Git"],
+      github: "https://github.com/Limboo05/web-app-threat-detector",
+      website: ""
+    },
+    {
+      title: "Network Intrusion Monitoring Dashboard",
+      description:
+        "Dashboard for monitoring network traffic and flagging suspicious activity using packet capture and anomaly detection",
+      technologies: ["Python", "Scapy", "Pandas", "Flask", "HTML", "CSS", "Git"],
+      github: "https://github.com/Limboo05/network-intrusion-dashboard",
+      website: ""
+    }
+  ];
+
+  return (
     <section id="projects" className="p-6 bg-transparent">
       <h2 className="text-3xl font-mono font-bold text-center mb-6 text-green-400">
         ls projects/
@@ -59,7 +62,9 @@ const Projects = () => {
                   )}
                 </div>
               </div>
-              <h3 className="text-lg md:text-xl font-bold font-mono mb-2">{project.title}</h3>
+              <h3 className="text-lg md:text-xl font-bold font-mono mb-2">
+                {project.title}
+              </h3>
               <p className="text-sm md:text-base text-gray-400 mb-4">
                 {project.description}
               </p>
