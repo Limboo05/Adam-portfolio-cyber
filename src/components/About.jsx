@@ -9,7 +9,7 @@ const About = () => {
       <div className="max-w-6xl mx-auto">
         <div className="flex flex-col md:flex-row items-center gap-8">
           <motion.img
-            src="Www.passionview.com.ng/Ada.png"
+            src="https://www.passionview.com.ng/Ada.png"
             alt="Adam Sadiq "
             className="w-32 h-32 md:w-48 md:h-48 rounded-full border-4 border-green-500 flex-shrink-0 object-cover"
             whileHover={{ scale: 1.1 }}
